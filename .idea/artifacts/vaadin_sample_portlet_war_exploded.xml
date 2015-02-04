@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="vaadin-sample-portlet:war exploded">
+    <output-path>$PROJECT_DIR$/target/vaadin-sample-portlet-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="vaadin-sample-portlet" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="vaadin-sample-portlet/web/Web" />
+    </root>
+  </artifact>
+</component>
