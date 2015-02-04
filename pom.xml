@@ -11,6 +11,7 @@
     <!-- Define the properties for the portlet.  Normally these will be set in your user profile, but I'm including them so their importance is clear -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Although building for 6.2 GA 3, this portlet will work in 6.1+, 6.2+ as long as you have the Vaadin 7 Control Panel installed. -->
         <liferay.version>6.2.2</liferay.version>
         <liferay.maven.plugin.version>6.2.10.10</liferay.maven.plugin.version>
         <liferay.bundle.dir>/Users/dnebinger/liferay/62cega3/bundle</liferay.bundle.dir>
